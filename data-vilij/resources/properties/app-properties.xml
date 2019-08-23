@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This XML file allows us to easily customize the visual aesthetics of the user interface. Note that this properties
+file is only for the standard high-level controls for an application, so it does not include properties meant for any
+functionality within the main workspace. -->
+<properties>
+    <property_list>
+        <!-- RESOURCE FILES AND FOLDERS -->
+        <property name="DATA_RESOURCE_PATH" value="data"/>
+        <property name="CSS_PATH" value="data-vilij.css"/>
+        <property name="RAINBOW_PATH" value="rainbow.png"/>
+        <property name="BACK_ICON" value="backButton.png"/>
+
+        <!-- USER INTERFACE ICON FILES -->
+        <property name="SCREENSHOT_ICON" value="screenshot.png"/>
+        <property name="RUN_ICON" value="run.png"/>
+        <property name="CONFIG_ICON" value="config.png"/>
+        <property name="BACK_ICON" value="backButton.jpg"/>
+        <property name="DISPLAY_ICON" value="display.png"/>
+
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="SCREENSHOT_TOOLTIP" value="Screenshot"/> <!-- will print current view of image to a file -->
+        <property name="RUN_TOOLTIP" value="Run"/>
+        <property name="BACK_TOOLTIP" value="Choose Different Algorithm"/>
+        <property name="DISPLAY_TOOLTIP" value="Display Data to Chart:"/>
+
+        <!-- WARNING MESSAGES -->
+        <property name="EXIT_WHILE_RUNNING_WARNING"
+                  value="An algorithm is running. If you exit now, all unsaved changes will be lost. Are you sure?"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="RESOURCE_SUBDIR_NOT_FOUND" value="Directory not found under resources."/>
+        <property name="SCREENSHOT_ERROR" value="Screenshot Error:"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGE TITLES -->
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save Current Work"/>
+
+        <!-- APPLICATION-SPECIFIC MESSAGES -->
+        <property name="SAVE_UNSAVED_WORK" value="Would you like to save current work?"/>
+
+        <!-- APPLICATION-SPECIFIC PARAMETERS -->
+        <property name="DATA_FILE_EXT" value="tsd"/>
+        <property name="DATA_FILE_EXT_DESC" value="Tab-Separated Data File"/>
+        <property name="TEXT_AREA" value="text area"/>
+        <property name="SPECIFIED_FILE" value="specified file"/>
+        <property name="LEFT_PANE_TITLE" value="Data File"/>
+        <property name="LEFT_PANE_TITLEFONT" value="SansSerif"/>
+        <property name="LEFT_PANE_TITLESIZE" value="18"/>
+        <property name="CHART_TITLE" value="Data Visualization Plot"/>
+        <property name="IMAGE_FILE_EXT" value="png"/>
+        <property name="IMAGE_FILE_EXT_DESC" value="png files (*.png)"/>
+        <property name="IMAGE" value="image file"/>
+        <property name="LINE_NUMBER" value=" because error at line number "/>
+        <property name="LOADING_ONLY_TEN" value="Showing only first 10 lines in the text area. Loaded data from file consists of  "/>
+        <property name="LINES" value=" lines"/>
+        <property name="DUPLICATE" value=". Duplicate name at line number "/>
+        <property name="NEW_LINE" value="\n"/>
+        <property name="EMPTY_STRING" value=""/>
+        <property name="MESSAGE" value="Message:"/>
+        <property name="HOVER" value="onHover"/>
+        <property name="CHART_LOOKUP" value=".chart-series-line"/>
+        <property name="DUPLICATE_NAME" value=". Duplicate name is "/>
+        <property name="TRANSPARENT" value="-fx-stroke: transparent"/>
+        <property name="GREEN" value="-fx-stroke: lime"/>
+        <property name="DISPLAY_INFO_LABELS" value=" The labels are: "/>
+        <property name="LOADED_FROM" value="loaded from: "/>
+        <property name="LABE" value=" labels"/>
+        <property name="INSTANCE" value=" instances with "/>
+        <property name="DASH" value="-"/>
+        <property name="NULL" value="null"/>
+        <property name="ALGORITHM_TYPES" value="Algorithm Types:"/>
+        <property name="CLASSIFICATION" value="Classification"/>
+        <property name="CLUSTERING" value="Clustering"/>
+        <property name="EDIT" value="edit"/>
+        <property name="DONE" value="done"/>
+        <property name="CLUSTERING_ALGORITHMS" value="Choose a Clustering Algorithm:"/>
+        <property name="CLASSIFICATION_ALGORITHMS" value="Choose a Classification Algorithm:"/>
+        <property name="MAXIMUM_ITERATIONS" value="Maximum Iterations: "/>
+        <property name="UPDATE_INTERVALS" value="Update Interval: "/>
+        <property name="CONTINUOUS_RUN" value="Continuous Run?"/>
+        <property name="SAVE_CONFIG" value="Save Run Settings"/>
+        <property name="YES" value="Yes"/>
+        <property name="NO" value="No"/>
+        <property name="ALGO_TERMINATE" value="Would you like to Terminate the Algorithm currently running and Exit the Application?"/>
+        <property name="EXIT" value="Exit Application"/>
+        <property name="CLASSIFICATION_RUNNING" value="classification."/>
+        <property name="CLUSTERING_RUNNING" value="clustering."/>
+        <property name="ALGO_COMPLETE" value="Would you like to Terminate the Algorithm and Work with Different Data?"/>
+        <property name="RANDOM_CLASSIFICATION" value="RandomClassifier"/>
+        <property name="RANDOM_CLUSTERING" value="RandomClusterer"/>
+        <property name="K_MEANS_CLUSTERER" value="KMeansClusterer"/>
+    </property_list>
+    <property_options_list/>
+</properties>
